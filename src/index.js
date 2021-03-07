@@ -14,7 +14,7 @@ for(let j=0; j<matrix[i].lenght; j++){
 }
 }else{
 
-  for(let j=matrix[i].lenght-1; j>=0; j--){ 
+  for(let j=matrix[i].lenght-1; 0 <=j; j--){ 
   newArr.push(matrix[i][j]);
      }
 }
